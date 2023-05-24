@@ -1,0 +1,49 @@
+.btn{
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  max-width: 250px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: #fff;
+  font-size: 18px;
+  margin-top: 31px;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.btn__request{
+  position: absolute;
+  margin-top: 349px;
+  margin-left: 280px;
+  width: 100%;
+  max-width: 250px;
+  min-height: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn_bordered{
+  position: absolute;
+  margin-top: 349px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  border-color: var(--accent-dark-color);
+  background: transparent;
+}
